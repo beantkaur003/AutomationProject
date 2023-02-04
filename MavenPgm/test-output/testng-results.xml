@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-04T15:36:52 EST" name="Suite" finished-at="2023-02-04T15:37:18 EST" duration-ms="26050">
+    <groups>
+    </groups>
+    <test started-at="2023-02-04T15:36:52 EST" name="Test" finished-at="2023-02-04T15:37:18 EST" duration-ms="26050">
+      <class name="com.test.MultiTest">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.MultiTest@72967906]" started-at="2023-02-04T15:36:52 EST" name="Initalization" finished-at="2023-02-04T15:36:58 EST" duration-ms="6104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initalization -->
+        <test-method signature="MouseHovering()[pri:1, instance:com.test.MultiTest@72967906]" started-at="2023-02-04T15:36:58 EST" name="MouseHovering" finished-at="2023-02-04T15:37:01 EST" duration-ms="2909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHovering -->
+        <test-method signature="AdvanceDropDown()[pri:2, instance:com.test.MultiTest@72967906]" started-at="2023-02-04T15:37:01 EST" name="AdvanceDropDown" finished-at="2023-02-04T15:37:05 EST" duration-ms="3701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvanceDropDown -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.test.MultiTest@72967906]" started-at="2023-02-04T15:37:05 EST" name="CleanUp" finished-at="2023-02-04T15:37:05 EST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- com.test.MultiTest -->
+      <class name="com.test.FrameHandling">
+        <test-method signature="Frame()[pri:0, instance:com.test.FrameHandling@7d8995e]" started-at="2023-02-04T15:37:05 EST" name="Frame" finished-at="2023-02-04T15:37:18 EST" duration-ms="13073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frame -->
+      </class> <!-- com.test.FrameHandling -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

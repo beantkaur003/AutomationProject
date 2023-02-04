@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.748 s <<< FAILURE! - in TestSuite
+MouseHovering(com.test.MultiTest)  Time elapsed: 2.45 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a453eae5a5fd2459002dd26c3ed6bc5, clickElement {id=f2606dea-da89-435f-9575-d32738ee0d7b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\beant\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50561}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50561/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8a453eae5a5fd2459002dd26c3ed6bc5)] -> xpath: //span[text()='Account']]
+Session ID: 8a453eae5a5fd2459002dd26c3ed6bc5
+	at com.test.MultiTest.MouseHovering(MultiTest.java:44)
+
