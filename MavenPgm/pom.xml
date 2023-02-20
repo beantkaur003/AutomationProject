@@ -77,7 +77,7 @@
           <version>2.22.1</version>
           <configuration>
                   <suiteXmlFiles>
-                     <suiteXmlFile>C:\Users\beant\OneDrive\Desktop\SeleniumTutorials\MavenPgm\testng.xml</suiteXmlFile>
+                     <suiteXmlFile>C:\Users\beant\OneDrive\Desktop\GitCode\AutomationProject\MavenPgm\Multi.xml</suiteXmlFile>
                   </suiteXmlFiles>
                </configuration>
         </plugin>

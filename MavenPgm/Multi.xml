@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.test.MultiTest"/>
+      <class name="com.test.ExcelReader"/>
       <class name="com.exceldata.ExcelReader"/>
       <class name="com.test.FrameHandling"/>
     </classes>
