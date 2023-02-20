@@ -62,7 +62,7 @@ public class MultiTest {
 		 
 		 for(int i= 0 ; i<li.size();i++)
 		 {
-			 li.get(i).click();
+			 //li.get(i).click();
 			 System.out.println(li.get(i).getText());
 		 }
 		 
